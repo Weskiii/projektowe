@@ -211,7 +211,7 @@ button:hover {
 }
 
 .section-header {
-  display: flex;
+  display: center;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
