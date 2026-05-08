@@ -211,7 +211,7 @@ button:hover {
 }
 
 .section-header {
-  display: center;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 15px;
@@ -268,4 +268,19 @@ form {
   font-size: 15px;
   font-weight: 700;
   margin-top: 10px;
+}
+
+#project-form {
+  margin-bottom: 20px;
+}
+
+#projects-list li {
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.delete-project-btn {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 13px;
 }
